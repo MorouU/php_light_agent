@@ -10,6 +10,7 @@
   * $_REQUEST['params'] -> GET请求参数
   * $_REQUEST['cookie'] -> 请求时所附带的COOKIE值
   * $_REQUEST['headers'] -> 请求时自定义的请求标头
+  * $_REQUEST['type'] -> 请求方式（有4种，前3种分别对应 socket file_get_contents curl 的内网代理，最后1种是单纯的file_get_contents()，可以玩php伪协议）
 * 配置参数
   * $REDIRECT_AUTO -> 是否自动跳转
   * $REDIRECT_COOKIE_USE -> 跳转时是否使用cookie
