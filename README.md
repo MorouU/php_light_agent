@@ -1,2 +1,16 @@
 # php_light_agent
-简单的php轻量级内网浏览代理
+## 简单的php轻量级内网浏览代理
+* 这是一个使用php写的简单的内网浏览代理，可以直接通过控制请求参数将内网内容展现到页面上（包括js、css都可以加载）
+## 使用方法
+* 请求参数介绍
+  * $_REQUEST['url'] -> 代理目标
+  * $_REQUEST['method'] -> 首次请求所使用的请求方法
+  * $_REQUEST['rmethod'] -> 遇到跳转时所使用的请求方法
+  * $_REQUEST['data'] -> POST请求参数
+  * $_REQUEST['params'] -> GET请求参数
+  * $_REQUEST['cookie'] -> 请求时所附带的COOKIE值
+  * $_REQUEST['headers'] -> 请求时自定义的请求标头
+* 配置参数
+  * $REDIRECT_AUTO -> 是否自动跳转
+  * $REDIRECT_COOKIE_USE -> 跳转时是否使用cookie
+  * $TIMEOUT -> 请求超时时间
