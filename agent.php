@@ -35,7 +35,7 @@ $TIMEOUT = 3;
 $TYPE = $_REQUEST['type'];
 
 # 使用范例：
-# url=http://10.10.16.3/index.html&method=post&remethod=get&post=a=123%26b=321&params=c=123&headers[0]=user-agent:dqv5
+# url=http://10.10.16.3/index.html&method=post&remethod=get&data=a=123%26b=321&params=c=123&headers[0]=user-agent:dqv5
 # 1. 内网目标页面 -> http://10.10.16.3/
 # 2. 首次访问方法 -> POST
 # 3. 若遇到跳转则使用的请求方法 -> GET
