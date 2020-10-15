@@ -17,9 +17,9 @@
   * $TIMEOUT -> 请求超时时间
 ## 简单例子
  * url=http://10.10.16.3/index.html&method=post&remethod=get&data=a=123%26b=321&params=c=123&headers[0]=user-agent:dqv5
- * 1. 内网目标页面 -> http://10.10.16.3/
- * 2. 首次访问方法 -> POST
- * 3. 若遇到跳转则使用的请求方法 -> GET
- * 4. POST请求参数 -> a=123&b=321
- * 5. GET请求参数 -> c=123
- * 6. 额外请求标头 -> user-agent : dqv5
+  * 1. 内网目标页面 -> http://10.10.16.3/
+  * 2. 首次访问方法 -> POST
+  * 3. 若遇到跳转则使用的请求方法 -> GET
+  * 4. POST请求参数 -> a=123&b=321
+  * 5. GET请求参数 -> c=123
+  * 6. 额外请求标头 -> user-agent : dqv5
